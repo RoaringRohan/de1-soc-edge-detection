@@ -1,0 +1,17 @@
+# Build output
+*.o
+*.out
+
+# Compiled binary (same name as its .c)
+part?/edgedetect
+
+# Output and intermediate images produced by a run
+edges.bmp
+stage?_*.bmp
+
+# FPGA bitstreams and test images are course-supplied and not tracked here
+*.rbf
+
+# OS
+.DS_Store
+Thumbs.db
