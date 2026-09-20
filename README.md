@@ -7,10 +7,12 @@ That pairing is the point of the project. The same algorithm on the same board, 
 with the work moved across the hardware/software boundary — which is the question a chip with a CPU
 and an FPGA on one die exists to ask.
 
-> **Demo video:** *(to be added)*
->
-> This needs the physical board, so there is no capture in this README yet — see
-> [Why there is no demo here](#why-there-is-no-demo-here).
+**Demo video** — recorded on the board:
+
+<video src="https://github.com/RoaringRohan/de1-soc-edge-detection/raw/main/assets/demo.mp4" controls width="720"></video>
+
+If the player does not load, [download the clip](assets/demo.mp4) (21s, no audio). It shows the
+software and FPGA passes run on the board, with the edge-detected output on the attached monitor.
 
 ## The algorithm
 
@@ -91,7 +93,7 @@ make
 
 Input images and the FPGA bitstreams are **not** in this repository — see below.
 
-## Why there is no demo here
+## Why it cannot be run anywhere else
 
 This is FPGA and embedded work: it reconfigures the fabric at runtime and moves image data over DMA
 between an ARM core and a streaming pipeline at fixed physical addresses. It cannot run anywhere
@@ -99,7 +101,8 @@ else, and a container does not help. Nothing here was executed during publicatio
 screenshot — the only honest one would be a photograph of a monitor, or an output BMP produced on
 hardware that was not available.
 
-A demo video is planned and will be linked at the top of this README when it exists.
+The demo video at the top of this README was recorded on the hardware by the author; nothing here
+was executed during publication.
 
 ## A note on what is here, and it matters more on this project than its siblings
 
