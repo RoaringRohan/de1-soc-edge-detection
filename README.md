@@ -9,7 +9,7 @@ and an FPGA on one die exists to ask.
 
 **Demo video** — recorded on the board:
 
-<video src="https://github.com/RoaringRohan/de1-soc-edge-detection/raw/main/assets/demo.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/1bbca540-b83a-4009-b70d-85aa0318cd25
 
 If the player does not load, [download the clip](assets/demo.mp4) (21s, no audio). It shows the
 software and FPGA passes run on the board, with the edge-detected output on the attached monitor.
